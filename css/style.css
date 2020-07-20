@@ -1,0 +1,258 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Helvetica', sans-serif;
+    font-weight: normal;
+    }
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: -0.5px;
+  /* margin: 28px 520px 66px 30px; */
+}
+h1 strong{
+  color: #00A3E0;
+}
+
+h2 {
+text-transform: uppercase;
+}
+
+
+
+.header{
+  background-color: #00A3E0;
+  display: flex;
+  border-top-right-radius: 50px;
+  justify-content: space-between;
+  height: 100px;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+}
+.header ol{
+  display: flex;
+  height: inherit;
+}
+.header ol li{
+  height: inherit;
+}
+
+.header a{
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+.menu{
+  height: inherit;
+}
+
+.hero{
+  display: flex;
+    height: 320px;
+  /* background-image: url('../imagen/joseruizderma.png'); */
+  background-color: #E1EFF9;
+  /* background-size: 300px; */
+  /* background-repeat: no-repeat; */
+  /* background-position: right; */
+  vertical-align: middle;
+  border: 1px solid #E1EFF9;
+  border-bottom-left-radius: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-image{
+  object-fit: cover;
+}
+
+/* .info{
+  width: 500px;
+  background-color: #F8F8F8;
+  margin: 45px;
+} */
+
+/* .info-enfermedades{
+margin: 45px;
+} */
+
+/* .cv-texto{
+  width: 500px;
+  margin: 45px;
+} */
+
+
+
+
+
+.cv-descripcion{
+  background-color: #fcfcfc;
+  border: 1px solid #184361;
+  border-radius: 10px;
+  border-top-left-radius: 50px;
+  padding: 20px;
+}
+
+.direccion{
+  margin: 45px;
+}
+
+.sucursal{/*padre de direccion-cuadro*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.direccion-cuadro{
+  margin: 10px;
+  width: 400px;
+  /* border: 1px solid #184361; */
+  border-radius: 10px;
+    /* padding: 10px 20px; */
+  flex-shrink: 0;
+  background-color: #E1EFF9;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.direccion-cuadro h3 {
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+  }
+
+
+/* .direccion-rio{
+  margin: 10px;
+  border: 1px solid #184361;
+  border-radius: 10px;
+  padding: 10px 20px;
+  flex-shrink: 0;
+} */
+
+.direccion-detalles{
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.direccion-texto{
+    text-align: left;
+}
+
+.link-ubicacion{
+    border: 1px solid #00A3E0;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #00A3E0;
+    border-radius: 7px;
+}
+.contacto{
+    background-color: #E1EFF9;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+    background-size: 50px 50px;
+    margin-right: 10px;
+
+}
+
+.social-link.twitter {
+    background-image: url('../imagen/twitter.svg');
+}
+
+.social-link.youtube {
+    background-image: url('../imagen/youtube.svg');
+}
+
+.social-link.instagram {
+    background-image: url('../imagen/instagram.png');
+}
+
+.social-link.facebook {
+    background-image: url('../imagen/facebook.svg');
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: solid;
+
+}
+
+.form-email h3 {
+  font-family: 'Helvetica', sans-serif;
+
+}
+
+.boton-enviar {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: black;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px auto 0;
+}
+
+.footer{
+background-color: #00A3E0;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.footer img {
+  vertical-align: middle;
+  }
+
+  .footer a {
+    color: white;
+    }
+
+  .container {
+      width: 1000px;
+      margin: 0 auto;
+      display: inherit;
+      justify-content: inherit;
+      align-items: inherit;
+      height: inherit;
+      flex-wrap: inherit;
+      }
